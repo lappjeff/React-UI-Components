@@ -1,15 +1,17 @@
 import React from 'react';
 import './Header.css';
 import Content from './HeaderContent';
-import Image from './ImageThumbnail';
+import Image from './ImageThumbnail'
+import Title from './HeaderTitle'
 
 
 const HeaderContainer = function() {
     return (
-        <div className='header-container'>
+        <header>
             <Image />
+            <Title />
             <Content />
-        </div>
+        </header>
     );
 }
 
