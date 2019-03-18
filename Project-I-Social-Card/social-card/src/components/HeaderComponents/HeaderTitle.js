@@ -3,10 +3,7 @@ import './Header.css';
 
 const Title = function() {
     return (
-        <div className='top-row'>
-            <h2>Lambda School</h2>
-            <p>@LambdaSchool - 26 Jan</p>
-        </div>
+            <h2>Lambda School <small className='gray-text'>@LambdaSchool - 26 Jan</small> </h2>
     );
 }
 
