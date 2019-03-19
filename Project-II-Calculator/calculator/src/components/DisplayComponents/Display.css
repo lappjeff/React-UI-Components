@@ -1,9 +1,31 @@
+.container {
+  border: 1px solid gray;
+}
 .display {
   color: white;
-  height: 20%;
   max-width: 100%;
   display: flex;
   justify-content: flex-end;
   border: 1px solid gray;
   padding: 10px;
+}
+
+.main {
+  height: 87%;
+  display: flex;
+  flex-direction: row-reverse
+}
+
+.side-row {
+  background: #9F0023;
+  height: 100%;
+  width: 25%;
+  border-left: 1px solid gray
+}
+
+.number-icons {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 87%;
 }
