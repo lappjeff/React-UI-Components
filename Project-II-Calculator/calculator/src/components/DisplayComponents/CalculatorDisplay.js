@@ -1,7 +1,5 @@
 import React from 'react';
 import './Display.css';
-import NumberButton from '../ButtonComponents/NumberButton'
-import ActionButton from '../ButtonComponents/ActionButton'
 import MainRows from './MainRows'
 import SideRow from './SideRows'
 import SumDisplay from './SumDisplay'
