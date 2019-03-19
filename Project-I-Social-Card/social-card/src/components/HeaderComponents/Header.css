@@ -1,1 +1,24 @@
 /* All styles for your header Components live here */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    min-height: 100px;
+}
+
+h2 {
+    margin: 0;
+}
+
+small {
+    font-size: 70%;
+    font-weight: 300;
+}
+
+.header-text {
+    max-width: 80%;
+}
+.thumbnail-img {
+    max-height: 70px;
+    margin-left: 50px;
+}
