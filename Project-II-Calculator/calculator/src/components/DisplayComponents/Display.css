@@ -1,0 +1,36 @@
+.container {
+  border: 1px solid gray;
+}
+.display {
+  color: white;
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 10px;
+  height: 20%;
+}
+
+.main {
+  height: 81%;
+  display: flex;
+  width: 100%;
+}
+
+.main-rows {
+  width: 80%;
+}
+.side-row {
+  background: #9F0023;
+  height: 100%;
+  width: 25%;
+  border-left: 1px solid gray
+}
+
+.number-icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 60%;
+}

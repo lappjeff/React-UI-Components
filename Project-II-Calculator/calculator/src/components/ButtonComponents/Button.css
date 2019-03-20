@@ -1,0 +1,32 @@
+.defaultStyles {
+  background: gray;
+  color: white;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid gray;
+  font-size: 40px;
+}
+
+.fit-width {
+  width: 33.3%;
+  height: 35%;
+  border: 1px solid white;
+}
+
+.action-button {
+  background: gray;
+  color: white;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  border: 1px solid white;
+
+}
+
+.red-button {
+  background: #9F0023;
+}
