@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const SumDisplay = function () {
+export default props => {
   return (
-    <div className='display'>
-      <h1>0</h1>
-    </div>
+    <header className='display'>
+
+    </header>
   )
 }
-export default SumDisplay

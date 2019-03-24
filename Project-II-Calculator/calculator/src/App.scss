@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-container {
+  width: 400px;
+  height: 600px;
+  margin: 10% auto;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  grid-gap: 3px;
+
+}
+
+.calc-button {
+  background: black;
+}

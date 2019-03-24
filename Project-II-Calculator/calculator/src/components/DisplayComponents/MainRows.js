@@ -1,26 +1,10 @@
-import React from 'react';
-import './Display.css';
-import ActionButton from '../ButtonComponents/ActionButton'
-import NumberButton from '../ButtonComponents/NumberButton'
+import React, { Component } from 'react'
 
-const numbers = [1,2,3,4,5,6,7,8,9]
 
-const MainRows = function() {
-
+export default props => {
   return (
-    <div className='main-rows'>
-      <ActionButton text='clear' />
-      <div className='number-icons'>
-        {numbers.map(function(number) {
-          return <NumberButton text={number} buttonStyles='fit-width'/>
-        })}
-      </div>
-      <ActionButton text='0' />
+    <div className='calc-button'>
+
     </div>
   )
-
-
 }
-
-
-export default MainRows;
